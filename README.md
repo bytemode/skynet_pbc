@@ -2,10 +2,12 @@ skynet使用pbc解析protobuf,使用socket和客户端通信。
 
 #  服务器编译步骤:             
 clone完整的代码 代码中引用了skynet和pbc           
-git clone https://github.com/gameloses/skynet_pbc.git     
+git clone https://github.com/gameloses/skynet_pbc.git  
+   
 cd skynet_pbc      
 git submodule init  
-git submodule update       
+git submodule update 
+      
 cd skynet   
 git submodule init  
 git submodule update   
@@ -16,7 +18,8 @@ make linux
 
 # 编译pbc  
 cd ../3rd/pbc   
-make  
+make
+  
 cd binding      
 cd lua53    
 make    
