@@ -2,7 +2,7 @@ skynet使用pbc解析protobuf,使用socket和客户端通信。
 
 #  服务器编译步骤:             
 clone完整的代码 代码中引用了skynet和pbc           
-git clone https://github.com/gameloses/skynet_pbc.git  
+git clone [https://github.com/bytemode/skynet_pbc](https://github.com/bytemode/skynet_pbc)
    
 cd skynet_pbc      
 git submodule init  
@@ -44,4 +44,4 @@ yum install protobuf.x86_64
 
 # 使用cocos2dx 测试一下连接。
 clinet的地址：
-https://github.com/gameloses/cocos2dx_lua_skynet_client.git
+https://github.com/bytemode/cocos2dx_lua_skynet_client.git
